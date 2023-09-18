@@ -3,15 +3,18 @@ Grab yourself a snippet or a block. Thought this file would help JS devs make th
 
 ### YourAppName-Whatever-that-is
 
-## Introduction
+## apiConfig Introduction
 
 This module provides a pre-configured Axios instance for API interactions and establishes a Socket.io connection to the specified API_URL. It also integrates with a token storage mechanism to handle authentication tokens for API requests.
 
 ## Setup
 
+Make a frontend "api" folder with the apiConfig and the other api files.
+
 Ensure you have the required dependencies installed by checking package.json.
 Set up the environment variable API_URL using react-native-config.
-Usage
+
+## Usage
 
 Axios Instance (apiInstance)
 The apiInstance is an Axios instance pre-configured to:
