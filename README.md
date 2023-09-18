@@ -59,9 +59,12 @@ This module simplifies the process of setting up API requests and real-time comm
 
 ## Continue ......
 
-########### Token Storage Utility
+## Token Storage Utility
 
 This module offers a simple and secure way to handle authentication tokens in a React Native application by utilizing react-native-keychain.
+
+## Setup
+You can easily set this in a "util" file or a "services" file, but I made a "storage" file so that works too. 
 
 ## Features:
 Secure Token Storage: The module stores the token securely using the native keychain services of both Android and iOS.
